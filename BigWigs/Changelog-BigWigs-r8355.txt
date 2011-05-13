@@ -1,0 +1,263 @@
+------------------------------------------------------------------------
+r8355 | Maat | 2011-05-12 06:06:54 +0000 (Thu, 12 May 2011) | 1 line
+Changed paths:
+   M /trunk/Firelands/Bethtilac.lua
+
+some cleanup
+------------------------------------------------------------------------
+r8354 | funkydude | 2011-05-11 23:17:52 +0000 (Wed, 11 May 2011) | 1 line
+Changed paths:
+   M /trunk/Core/Core.lua
+   M /trunk/Options/Options.lua
+
+tag prints with "Big Wigs" to make more sense, temp workaround for firelands id not existing in 4.1
+------------------------------------------------------------------------
+r8353 | Maat | 2011-05-11 23:09:29 +0000 (Wed, 11 May 2011) | 1 line
+Changed paths:
+   M /trunk/Firelands/Bethtilac.lua
+
+start populating the module with some basic warnings
+------------------------------------------------------------------------
+r8351 | mojosdojo | 2011-05-09 11:10:16 +0000 (Mon, 09 May 2011) | 1 line
+Changed paths:
+   M /trunk/Bastion/Locales/deDE.lua
+
+deDE update.
+------------------------------------------------------------------------
+r8350 | pettigrow | 2011-05-09 10:21:44 +0000 (Mon, 09 May 2011) | 1 line
+Changed paths:
+   M /trunk/Bastion/Locales/frFR.lua
+   M /trunk/Blackwing/Locales/frFR.lua
+
+frFR Update
+------------------------------------------------------------------------
+r8349 | jongt23 | 2011-05-08 23:43:45 +0000 (Sun, 08 May 2011) | 1 line
+Changed paths:
+   M /trunk/Bastion/Locales/esES.lua
+
+esES Update
+------------------------------------------------------------------------
+r8348 | funkydude | 2011-05-08 20:57:24 +0000 (Sun, 08 May 2011) | 1 line
+Changed paths:
+   M /trunk/Bastion/Halfus.lua
+   M /trunk/Bastion/Locales/deDE.lua
+   M /trunk/Bastion/Locales/esES.lua
+   M /trunk/Bastion/Locales/frFR.lua
+   M /trunk/Bastion/Locales/koKR.lua
+   M /trunk/Bastion/Locales/ruRU.lua
+   M /trunk/Bastion/Locales/zhCN.lua
+   M /trunk/Bastion/Locales/zhTW.lua
+
+Bastion/Halfus: use yell for engage
+------------------------------------------------------------------------
+r8347 | rabbit | 2011-05-08 07:32:16 +0000 (Sun, 08 May 2011) | 1 line
+Changed paths:
+   M /trunk/Options/Options.lua
+
+Be more verbal if we try to create a interface panel for a unknown zone.
+------------------------------------------------------------------------
+r8346 | funkydude | 2011-05-06 00:47:53 +0000 (Fri, 06 May 2011) | 1 line
+Changed paths:
+   M /trunk/Core/Core.lua
+
+Core: bugfix some bad self usage.
+------------------------------------------------------------------------
+r8345 | funkydude | 2011-05-05 19:13:54 +0000 (Thu, 05 May 2011) | 1 line
+Changed paths:
+   M /trunk/Plugins/Proximity.lua
+
+Proximity: uncomment the map data again as it is apparently fixed for Americans in 4.1.0a
+------------------------------------------------------------------------
+r8344 | funkydude | 2011-05-05 16:47:45 +0000 (Thu, 05 May 2011) | 1 line
+Changed paths:
+   M /trunk/Firelands/Alysrazor.lua
+   M /trunk/Firelands/Baleroc.lua
+   M /trunk/Firelands/Bethtilac.lua
+   M /trunk/Firelands/Ragnaros.lua
+   M /trunk/Firelands/Rhyolith.lua
+   M /trunk/Firelands/Shannox.lua
+   M /trunk/Firelands/Staghelm.lua
+
+Firelands: comment out the skeleton modules, uncomment when they actually do something.
+------------------------------------------------------------------------
+r8343 | Maat | 2011-05-05 15:14:28 +0000 (Thu, 05 May 2011) | 1 line
+Changed paths:
+   M /trunk/.pkgmeta
+   A /trunk/Firelands
+   A /trunk/Firelands/Alysrazor.lua
+   A /trunk/Firelands/Baleroc.lua
+   A /trunk/Firelands/Bethtilac.lua
+   A /trunk/Firelands/BigWigs_Firelands.toc
+   A /trunk/Firelands/Locales
+   A /trunk/Firelands/Locales/deDE.lua
+   A /trunk/Firelands/Locales/esES.lua
+   A /trunk/Firelands/Locales/frFR.lua
+   A /trunk/Firelands/Locales/koKR.lua
+   A /trunk/Firelands/Locales/ruRU.lua
+   A /trunk/Firelands/Locales/zhCN.lua
+   A /trunk/Firelands/Locales/zhTW.lua
+   A /trunk/Firelands/Ragnaros.lua
+   A /trunk/Firelands/Rhyolith.lua
+   A /trunk/Firelands/Shannox.lua
+   A /trunk/Firelands/Staghelm.lua
+   A /trunk/Firelands/locales.xml
+   A /trunk/Firelands/modules.xml
+   M /trunk/modules.xml
+
+import skeleton for Firelands modules
+------------------------------------------------------------------------
+r8342 | funkydude | 2011-05-05 10:54:01 +0000 (Thu, 05 May 2011) | 1 line
+Changed paths:
+   M /trunk/Core/BossPrototype.lua
+
+Core/BossPrototype: 4.2 cleu compat
+------------------------------------------------------------------------
+r8341 | ananhaid | 2011-05-05 03:26:05 +0000 (Thu, 05 May 2011) | 2 lines
+Changed paths:
+   M /trunk/Bastion/Locales/zhTW.lua
+   M /trunk/Blackwing/Locales/zhTW.lua
+   M /trunk/Locales/zhCN.lua
+   M /trunk/Locales/zhTW.lua
+   M /trunk/Throne/Locales/zhTW.lua
+
+BigWigs:
+- zhCN/zhTW update.
+------------------------------------------------------------------------
+r8340 | funkydude | 2011-05-04 12:15:31 +0000 (Wed, 04 May 2011) | 1 line
+Changed paths:
+   M /trunk/Baradin/BigWigs_Baradin.toc
+
+Baradin: fix toc
+------------------------------------------------------------------------
+r8339 | funkydude | 2011-05-03 23:01:42 +0000 (Tue, 03 May 2011) | 1 line
+Changed paths:
+   M /trunk/.pkgmeta
+   M /trunk/Baradin/Argaloth.lua
+   M /trunk/Baradin/BigWigs_Baradin.toc
+   M /trunk/Bastion/BigWigs_Bastion.toc
+   M /trunk/Bastion/Chogall.lua
+   M /trunk/Bastion/DoubleDragon.lua
+   M /trunk/Bastion/Halfus.lua
+   M /trunk/Bastion/Sinestra.lua
+   M /trunk/Bastion/TwilightAscendants.lua
+   M /trunk/BigWigs.toc
+   M /trunk/Blackwing/Atramedes.lua
+   M /trunk/Blackwing/BigWigs_Blackwing.toc
+   M /trunk/Blackwing/Chimaeron.lua
+   M /trunk/Blackwing/Magmaw.lua
+   M /trunk/Blackwing/Maloriak.lua
+   M /trunk/Blackwing/Nefarian.lua
+   M /trunk/Blackwing/Omnotron.lua
+   M /trunk/Core/Core.lua
+   M /trunk/Foreign/libs.xml
+   M /trunk/Loader.lua
+   M /trunk/Options/Options.lua
+   M /trunk/Throne/Alakir.lua
+   M /trunk/Throne/BigWigs_Throne.toc
+   M /trunk/Throne/Conclave.lua
+
+Complete removal of babble zone in favour of map Id's, with some tweaks from rabbit
+------------------------------------------------------------------------
+r8338 | rabbit | 2011-05-03 22:57:24 +0000 (Tue, 03 May 2011) | 1 line
+Changed paths:
+   M /trunk/Options/author-list.lua
+
+Update author list.
+------------------------------------------------------------------------
+r8337 | pettigrow | 2011-05-03 19:28:21 +0000 (Tue, 03 May 2011) | 1 line
+Changed paths:
+   M /trunk/Throne/Locales/frFR.lua
+
+Throne/Locales/frFR.lua: fix the fix
+------------------------------------------------------------------------
+r8336 | funkydude | 2011-05-03 19:18:48 +0000 (Tue, 03 May 2011) | 1 line
+Changed paths:
+   M /trunk/Plugins/Proximity.lua
+
+Plugins/Proximity: comment out the map data so we fall back to old proximity methods until Blizz fix another screwup.
+------------------------------------------------------------------------
+r8335 | mojosdojo | 2011-05-03 10:40:47 +0000 (Tue, 03 May 2011) | 1 line
+Changed paths:
+   M /trunk/Throne/Locales/frFR.lua
+
+Al'Akir frFR phase 3 fix according to forums.
+------------------------------------------------------------------------
+r8333 | funkydude | 2011-04-27 20:14:20 +0000 (Wed, 27 Apr 2011) | 1 line
+Changed paths:
+   M /trunk/Blackwing/Nefarian.lua
+
+Blackwing/Nefarian: Replace more occurrences of 80626.
+------------------------------------------------------------------------
+r8332 | funkydude | 2011-04-27 20:04:49 +0000 (Wed, 27 Apr 2011) | 1 line
+Changed paths:
+   M /trunk/Core/Core.lua
+   M /trunk/Loader.lua
+   M /trunk/Plugins/Tips.lua
+
+Update to 4.1 comm system
+------------------------------------------------------------------------
+r8331 | funkydude | 2011-04-27 13:59:28 +0000 (Wed, 27 Apr 2011) | 1 line
+Changed paths:
+   M /trunk/Blackwing/Omnotron.lua
+
+Blackwing/Omnotron: add a throttle to boss switching to get past a blizz 4.1 screwup. ticket#331
+------------------------------------------------------------------------
+r8330 | funkydude | 2011-04-27 13:46:48 +0000 (Wed, 27 Apr 2011) | 1 line
+Changed paths:
+   M /trunk/Blackwing/Nefarian.lua
+
+Blackwing/Nefarian: Fix stolen power Id ticket#330
+------------------------------------------------------------------------
+r8329 | mojosdojo | 2011-04-27 10:16:18 +0000 (Wed, 27 Apr 2011) | 1 line
+Changed paths:
+   M /trunk/Bastion/Sinestra.lua
+   M /trunk/Blackwing/Magmaw.lua
+   M /trunk/Throne/Alakir.lua
+
+Formatting and comments.
+------------------------------------------------------------------------
+r8328 | funkydude | 2011-04-27 00:07:59 +0000 (Wed, 27 Apr 2011) | 1 line
+Changed paths:
+   M /trunk/Baradin/BigWigs_Baradin.toc
+   M /trunk/Bastion/BigWigs_Bastion.toc
+   M /trunk/BigWigs.toc
+   M /trunk/Blackwing/BigWigs_Blackwing.toc
+   M /trunk/Core/BigWigs_Core.toc
+   M /trunk/Core/BossPrototype.lua
+   M /trunk/Foreign/BigWigs_Foreign.toc
+   M /trunk/Options/BigWigs_Options.toc
+   M /trunk/Plugins/BigWigs_Plugins.toc
+   M /trunk/Throne/BigWigs_Throne.toc
+
+toc bumps, remove combatlog compat
+------------------------------------------------------------------------
+r8327 | zhTW | 2011-04-20 02:56:27 +0000 (Wed, 20 Apr 2011) | 1 line
+Changed paths:
+   M /trunk/Blackwing/Locales/zhTW.lua
+
+zhTW update
+------------------------------------------------------------------------
+r8326 | zhTW | 2011-04-16 16:30:40 +0000 (Sat, 16 Apr 2011) | 1 line
+Changed paths:
+   M /trunk/Blackwing/Locales/zhTW.lua
+
+zhTW Update.
+------------------------------------------------------------------------
+r8325 | mikk | 2011-04-15 07:46:59 +0000 (Fri, 15 Apr 2011) | 1 line
+Changed paths:
+   M /trunk/Plugins/Proximity.lua
+
+Proximity: Add the "additional 10% for safety's sake" to a place that I didn't know existed.
+------------------------------------------------------------------------
+r8324 | mikk | 2011-04-14 20:58:22 +0000 (Thu, 14 Apr 2011) | 1 line
+Changed paths:
+   M /trunk/Plugins/Proximity.lua
+
+Proximity: map-based proximity will now add 10% distance to be on the safe side with mapping errors (which DO exist, tested & died).
+------------------------------------------------------------------------
+r8323 | funkydude | 2011-04-03 19:59:45 +0000 (Sun, 03 Apr 2011) | 1 line
+Changed paths:
+   M /trunk/Blackwing/Atramedes.lua
+
+Blackwing/Atramedes: Remove the sonic breath message since it's pretty much the same as the tracking message.
+------------------------------------------------------------------------

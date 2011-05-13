@@ -1,0 +1,145 @@
+------------------------------------------------------------------------
+r8331 | funkydude | 2011-04-27 13:59:28 +0000 (Wed, 27 Apr 2011) | 1 line
+Changed paths:
+   M /trunk/Blackwing/Omnotron.lua
+
+Blackwing/Omnotron: add a throttle to boss switching to get past a blizz 4.1 screwup. ticket#331
+------------------------------------------------------------------------
+r8330 | funkydude | 2011-04-27 13:46:48 +0000 (Wed, 27 Apr 2011) | 1 line
+Changed paths:
+   M /trunk/Blackwing/Nefarian.lua
+
+Blackwing/Nefarian: Fix stolen power Id ticket#330
+------------------------------------------------------------------------
+r8329 | mojosdojo | 2011-04-27 10:16:18 +0000 (Wed, 27 Apr 2011) | 1 line
+Changed paths:
+   M /trunk/Bastion/Sinestra.lua
+   M /trunk/Blackwing/Magmaw.lua
+   M /trunk/Throne/Alakir.lua
+
+Formatting and comments.
+------------------------------------------------------------------------
+r8328 | funkydude | 2011-04-27 00:07:59 +0000 (Wed, 27 Apr 2011) | 1 line
+Changed paths:
+   M /trunk/Baradin/BigWigs_Baradin.toc
+   M /trunk/Bastion/BigWigs_Bastion.toc
+   M /trunk/BigWigs.toc
+   M /trunk/Blackwing/BigWigs_Blackwing.toc
+   M /trunk/Core/BigWigs_Core.toc
+   M /trunk/Core/BossPrototype.lua
+   M /trunk/Foreign/BigWigs_Foreign.toc
+   M /trunk/Options/BigWigs_Options.toc
+   M /trunk/Plugins/BigWigs_Plugins.toc
+   M /trunk/Throne/BigWigs_Throne.toc
+
+toc bumps, remove combatlog compat
+------------------------------------------------------------------------
+r8327 | zhTW | 2011-04-20 02:56:27 +0000 (Wed, 20 Apr 2011) | 1 line
+Changed paths:
+   M /trunk/Blackwing/Locales/zhTW.lua
+
+zhTW update
+------------------------------------------------------------------------
+r8326 | zhTW | 2011-04-16 16:30:40 +0000 (Sat, 16 Apr 2011) | 1 line
+Changed paths:
+   M /trunk/Blackwing/Locales/zhTW.lua
+
+zhTW Update.
+------------------------------------------------------------------------
+r8325 | mikk | 2011-04-15 07:46:59 +0000 (Fri, 15 Apr 2011) | 1 line
+Changed paths:
+   M /trunk/Plugins/Proximity.lua
+
+Proximity: Add the "additional 10% for safety's sake" to a place that I didn't know existed.
+------------------------------------------------------------------------
+r8324 | mikk | 2011-04-14 20:58:22 +0000 (Thu, 14 Apr 2011) | 1 line
+Changed paths:
+   M /trunk/Plugins/Proximity.lua
+
+Proximity: map-based proximity will now add 10% distance to be on the safe side with mapping errors (which DO exist, tested & died).
+------------------------------------------------------------------------
+r8323 | funkydude | 2011-04-03 19:59:45 +0000 (Sun, 03 Apr 2011) | 1 line
+Changed paths:
+   M /trunk/Blackwing/Atramedes.lua
+
+Blackwing/Atramedes: Remove the sonic breath message since it's pretty much the same as the tracking message.
+------------------------------------------------------------------------
+r8322 | rabbit | 2011-04-03 18:53:31 +0000 (Sun, 03 Apr 2011) | 1 line
+Changed paths:
+   M /trunk/Blackwing/Maloriak.lua
+
+Final phase is 25%, not 20.
+------------------------------------------------------------------------
+r8321 | funkydude | 2011-04-03 02:32:08 +0000 (Sun, 03 Apr 2011) | 1 line
+Changed paths:
+   M /trunk/Throne/Locales/deDE.lua
+
+Throne/Conclave: fix deDE gather strength trigger.
+------------------------------------------------------------------------
+r8320 | 7destiny | 2011-04-02 00:16:45 +0000 (Sat, 02 Apr 2011) | 1 line
+Changed paths:
+   M /trunk/Bastion/Sinestra.lua
+
+Sinestra: Fix first slicer timer
+------------------------------------------------------------------------
+r8319 | Maat | 2011-03-31 20:14:28 +0000 (Thu, 31 Mar 2011) | 1 line
+Changed paths:
+   M /trunk/Bastion/TwilightAscendants.lua
+
+remove static overload and gravity core icons after the debuffs are removed
+------------------------------------------------------------------------
+r8318 | Maat | 2011-03-31 17:20:43 +0000 (Thu, 31 Mar 2011) | 1 line
+Changed paths:
+   M /trunk/Bastion/Sinestra.lua
+
+add egg vulnerability duration
+------------------------------------------------------------------------
+r8317 | jongt23 | 2011-03-31 13:20:26 +0000 (Thu, 31 Mar 2011) | 1 line
+Changed paths:
+   M /trunk/Blackwing/Locales/esES.lua
+
+esES Update
+------------------------------------------------------------------------
+r8316 | 7destiny | 2011-03-31 11:20:24 +0000 (Thu, 31 Mar 2011) | 1 line
+Changed paths:
+   M /trunk/Bastion/Sinestra.lua
+
+Sinestra: Add missing spellID(10man)
+------------------------------------------------------------------------
+r8315 | jongt23 | 2011-03-29 15:52:03 +0000 (Tue, 29 Mar 2011) | 1 line
+Changed paths:
+   M /trunk/Blackwing/Locales/esES.lua
+
+esES Update
+------------------------------------------------------------------------
+r8313 | funkydude | 2011-03-29 15:22:05 +0000 (Tue, 29 Mar 2011) | 1 line
+Changed paths:
+   M /trunk/Baradin/Locales/esES.lua
+   M /trunk/Bastion/Locales/ruRU.lua
+   M /trunk/Locales/common.esES.lua
+   M /trunk/Locales/esES.lua
+
+remove utf headers/whitespace
+------------------------------------------------------------------------
+r8312 | funkydude | 2011-03-29 15:16:53 +0000 (Tue, 29 Mar 2011) | 1 line
+Changed paths:
+   M /trunk/BigWigs.toc
+
+bump toc version
+------------------------------------------------------------------------
+r8311 | ammo | 2011-03-27 19:12:29 +0000 (Sun, 27 Mar 2011) | 1 line
+Changed paths:
+   M /trunk/Plugins/Proximity.lua
+
+fix proximity text to display actual name and not 'raid1' etc
+------------------------------------------------------------------------
+r8310 | 7destiny | 2011-03-25 10:56:07 +0000 (Fri, 25 Mar 2011) | 1 line
+Changed paths:
+   M /trunk/Bastion/Locales/deDE.lua
+   M /trunk/Bastion/Locales/frFR.lua
+   M /trunk/Bastion/Locales/koKR.lua
+   M /trunk/Bastion/Locales/ruRU.lua
+   M /trunk/Bastion/Sinestra.lua
+
+Sinestra: Fix slicer :/
+------------------------------------------------------------------------
