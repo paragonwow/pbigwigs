@@ -8,7 +8,7 @@ if not mod then return end
 mod:RegisterEnableMob(52558)
 
 --------------------------------------------------------------------------------
--- Locals
+-- Locals   
 --
 
 local phase = 1
