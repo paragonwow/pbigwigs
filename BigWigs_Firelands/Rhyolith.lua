@@ -32,7 +32,7 @@ end
 L = mod:GetLocale()
 
 --------------------------------------------------------------------------------
--- Initialization
+-- Initialization   
 --
 
 function mod:GetOptions(CL)
