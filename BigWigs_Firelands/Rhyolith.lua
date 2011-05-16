@@ -5,7 +5,7 @@ if tonumber((select(4, GetBuildInfo()))) < 40200 then return end
 
 local mod = BigWigs:NewBoss("Lord Rhyolith", 800)
 if not mod then return end
-mod:RegisterEnableMob(52558)
+mod:RegisterEnableMob(52577, 53087, 52558) -- Left foot, Right Foot, Lord Rhyolith
 
 --------------------------------------------------------------------------------
 -- Locals   
@@ -23,6 +23,7 @@ local L = mod:NewLocale("enUS", true)
 if L then
 		L.rock_elementals = "Adds"
 		L.eruption = "Volcano Erupts in"
+		L.eruption_msg = "Volcano Active"
 		
 		L.phase2 = "Phase 2"
 		L.phase2_desc = "Warn for Phase 2 transition."
@@ -55,7 +56,8 @@ function mod:OnBossEnable()
 end
 
 function mod:OnEngage(diff)
-
+self:Bar(97282, spellName, 30, spellId)
+self:Bar(98146, L["rock_elementals"], 23, 98146)
 phase = 1
 end
 
@@ -83,5 +85,5 @@ end
 
 function mod:HeatedVolcano(_, spellId, _, _, spellName)
 	self:Bar(98493, L["eruption"], 40, spellId)
-	self:Message(98493, L["eruption"], "Positive", spellId, "Info")
+	self:Message(98493, L["eruption_msg"], "Positive", spellId, "Info")
 end
